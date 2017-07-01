@@ -60,8 +60,5 @@ typings/
 .dockerignore
 passwd/
 .idea/
-.babelrc
-.editorconfig
-.eslintignore
-.eslintrc.js
-.postcssrc.js
+dist/
+test/e2e/reports/
