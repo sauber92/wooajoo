@@ -1,0 +1,28 @@
+{
+  "name": "wooajoo",
+  "version": "0.0.0",
+  "description": "wooajoo project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sauber92/wooajoo.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "docker",
+    "vue"
+  ],
+  "author": "sauber92",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sauber92/wooajoo/issues"
+  },
+  "dependencies": {
+    "uuid": "~3.1.0",
+    "express": "~4.15.3"
+  }
+}
