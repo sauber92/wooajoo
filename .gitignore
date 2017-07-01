@@ -58,5 +58,10 @@ typings/
 .env
 
 .dockerignore
-config/
+passwd/
 .idea/
+.babelrc
+.editorconfig
+.eslintignore
+.eslintrc.js
+.postcssrc.js
