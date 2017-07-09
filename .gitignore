@@ -62,3 +62,4 @@ passwd/
 .idea/
 dist/
 test/e2e/reports/
+package-lock.json
