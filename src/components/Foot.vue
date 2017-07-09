@@ -1,5 +1,8 @@
 <template>
-  <p>Copyright © 우아주. 2017 • All rights reserved.</p>
+  <div class="row text-center">
+    <p class="col">Designed by <a href="https://sauber92.github.io">sauber92(Junyoung)</a></p>
+    <p class="col">Copyright &copy; <router-link to="/">우아주</router-link>. 2017 &bull; All rights reserved.</p>
+  </div>
 </template>
 
 <script>
@@ -14,5 +17,7 @@
 </script>
 
 <style scoped>
-
+  p {
+    margin-top: 50px;
+  }
 </style>

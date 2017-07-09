@@ -1,13 +1,12 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <hello></hello>
+    <router-view></router-view>
     <foot></foot>
   </div>
 </template>
 
 <script>
-//  import Login from './components/Login';
   import Navbar from './components/Navbar';
   import Hello from './components/Hello';
   import Foot from './components/Foot';
@@ -18,7 +17,6 @@
       Navbar,
       Hello,
       Foot,
-//      Login,
     },
   };
 </script>
@@ -30,6 +28,20 @@
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
     margin-top: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  a:hover {
+    color: #ed9f34;
+  }
+
+  li:hover {
+    color: #ed9f34;
+    cursor: pointer;
   }
 
   .form-control:focus {
