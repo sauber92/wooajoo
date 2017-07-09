@@ -2,7 +2,7 @@
   <div id="app">
     <navbar></navbar>
     <hello></hello>
-    <!--<login></login>-->
+    <foot></foot>
   </div>
 </template>
 
@@ -10,12 +10,14 @@
 //  import Login from './components/Login';
   import Navbar from './components/Navbar';
   import Hello from './components/Hello';
+  import Foot from './components/Foot';
 
   export default {
     name: 'app',
     components: {
       Navbar,
       Hello,
+      Foot,
 //      Login,
     },
   };
