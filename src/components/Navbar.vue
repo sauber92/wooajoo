@@ -4,7 +4,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <router-link to="/" class="navbar-brand">
-      <img src="../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <img src="../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo img">
       우아주
     </router-link>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -15,7 +15,7 @@
         </li>
         <li class="nav-item">
           <!--<a class="nav-link" href="#">소개하기</a>-->
-          <router-link to="hello" class="nav-link">소개하기</router-link>
+          <router-link to="intro" class="nav-link">소개하기</router-link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
