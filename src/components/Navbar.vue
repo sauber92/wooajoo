@@ -58,3 +58,19 @@
     },
   };
 </script>
+
+<style scoped>
+  nav {
+    margin-bottom: 20px;
+  }
+
+  .search-tool {
+    margin-top: 5px;
+    float: right;
+  }
+
+  .form-control {
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+  }
+</style>

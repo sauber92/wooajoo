@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <navbar></navbar>
-
     <hello></hello>
     <!--<login></login>-->
   </div>
@@ -23,9 +22,6 @@
 </script>
 
 <style>
-  nav {
-    margin-bottom: 20px;
-  }
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -34,13 +30,7 @@
     margin-top: 10px;
   }
 
-  .search-tool {
-    margin-top: 5px;
-    float: right;
-  }
-
-  .form-control {
-    padding: 5px 10px 5px 10px;
-    font-size: 13px;
+  .form-control:focus {
+    border-color: #ed9f34;
   }
 </style>
