@@ -60,10 +60,6 @@
 </script>
 
 <style scoped>
-  nav {
-    margin-bottom: 20px;
-  }
-
   .search-tool {
     margin-top: 5px;
     float: right;

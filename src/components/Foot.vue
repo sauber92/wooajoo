@@ -14,10 +14,10 @@
 
 <script>
   export default {
-    name: 'hello',
+    name: 'footer',
     data() {
       return {
-        msg: '안녕하세요 우아주 블로그입니다.',
+        author: 'sauber92(@Junyoung)',
       };
     },
   };
