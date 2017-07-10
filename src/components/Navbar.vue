@@ -9,20 +9,22 @@
     </router-link>
     <div class="collapse navbar-collapse row" id="navbarNavDropdown">
       <ul class="navbar-nav col-8">
-        <router-link to="/" tag="li" class="nav-item nav-link">홈</router-link>
-        <router-link to="/intro/group" tag="li" class="nav-item nav-link">소개하기</router-link>
+        <router-link to="/intro/group" tag="li" class="nav-item nav-link">소개</router-link>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             게시물 보기
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <router-link to="july" class="dropdown-item">Smart Things (17년 7월)</router-link>
-            <router-link to="august" class="dropdown-item">Smart Mobility (17년 8월)</router-link>
-            <router-link to="september" class="dropdown-item">Cloud (17년 9월)</router-link>
-            <router-link to="october" class="dropdown-item">Big data (17년 10월)</router-link>
-            <router-link to="november" class="dropdown-item">AI (17년 11월)</router-link>
-            <router-link to="december" class="dropdown-item">Security (17년 12월)</router-link>
+            <router-link to="july" class="dropdown-item">Smart Things</router-link>
+            <router-link to="august" class="dropdown-item" data-toggle="tooltip" data-placement="right" title="업로드 예정: 17년 8월">Smart Mobility</router-link>
+            <router-link to="september" class="dropdown-item" data-toggle="tooltip" data-placement="right" title="업로드 예정: 17년 9월">Cloud</router-link>
+            <router-link to="october" class="dropdown-item" data-toggle="tooltip" data-placement="right" title="업로드 예정: 17년 10월">Big data</router-link>
+            <router-link to="november" class="dropdown-item" data-toggle="tooltip" data-placement="right" title="업로드 예정: 17년 11월">AI</router-link>
+            <router-link to="december" class="dropdown-item" data-toggle="tooltip" data-placement="right" title="업로드 예정: 17년 12월">Security</router-link>
           </div>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/playlist?list=PLTj4ip-QW96ty577FRHnACUjw4dSm2TFH" data-toggle="tooltip" data-placement="right" title="유투브 페이지로 이동합니다" class="nav-item nav-link">유투브 채널</a>
         </li>
       </ul>
       <router-link to="/login" id="login" class="col-1">
