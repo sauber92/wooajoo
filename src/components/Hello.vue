@@ -5,7 +5,7 @@
       <img class="logo" src="../assets/logo-big.png" alt="Logo img">
       <h1 class="card-title">{{ msg }}</h1>
       <h2 class="card-text">아직 개발 중입니다 :-(</h2>
-      <router-link to="intro" class="btn-main">
+      <router-link to="intro/group" class="btn-main">
         <button class="btn btn-outline-warning btn-lg">우아주 알아보러 가기</button>
       </router-link>
     </div>

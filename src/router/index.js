@@ -7,6 +7,10 @@ import Intro from '@/components/Intro';
 import IntroGroup from '@/components/IntroGroup';
 import IntroMember from '@/components/IntroMember';
 
+import Post from '@/components/Post';
+import PostJuly from '@/components/PostJuly';
+import PostNone from '@/components/PostNone';
+
 import Login from '@/components/Login';
 
 Vue.use(Router);
@@ -34,6 +38,23 @@ export default new Router({
           path: '/intro/member',
           name: 'IntroMember',
           component: IntroMember,
+        },
+      ],
+    },
+    {
+      path: '/post',
+      name: 'Post',
+      component: Post,
+      children: [
+        {
+          path: '/post/july',
+          name: 'PostJuly',
+          component: PostJuly,
+        },
+        {
+          path: '/post/none',
+          name: 'PostNone',
+          component: PostNone,
         },
       ],
     },

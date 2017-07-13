@@ -1,9 +1,9 @@
 <template>
-  <div class="intro-contents">
+  <div class="post-contents">
     <div class="title-box">
-      <p class="hello">Hello world !!!</p>
+      <p class="hello">July 2017 !!!</p>
       <h1><strong> {{ title }} </strong></h1>
-      <p>아직 개발 중입니다 :-(</p>
+      <p>각자 공부하고, 다함께 공유하며 비상을 준비하는 주니어들의 모임입니다.</p>
     </div>
 
     <div class="contents">
@@ -18,10 +18,10 @@
 
 <script>
   export default {
-    name: 'intro-member',
+    name: 'post-july',
     data() {
       return {
-//        title: '우아주',
+        title: 'Smart things',
       };
     },
   };

@@ -1,7 +1,7 @@
 <template>
-  <div id="intro">
-    <intro-nav></intro-nav>
-    <router-view></router-view>
+  <div id="intro" class="row">
+    <intro-nav class="col-2"></intro-nav>
+    <router-view class="col-10"></router-view>
   </div>
 </template>
 
@@ -19,3 +19,6 @@
     },
   };
 </script>
+
+<style scoped>
+</style>

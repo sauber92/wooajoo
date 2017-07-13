@@ -1,5 +1,5 @@
 <template>
-  <div class="intro-contents">
+  <div class="post-contents">
     <div class="title-box">
       <p class="hello">Hello world !!!</p>
       <h1><strong> {{ title }} </strong></h1>
@@ -18,7 +18,7 @@
 
 <script>
   export default {
-    name: 'intro-member',
+    name: 'post-none',
     data() {
       return {
 //        title: '우아주',
