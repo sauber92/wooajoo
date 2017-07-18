@@ -1,20 +1,24 @@
 <template>
   <div class="intro-contents">
     <div class="title-box">
-      <p class="hello">Hello world !!!</p>
-      <h1><strong> {{ title }} </strong></h1>
-      <p>각자 공부하고, 다함께 공유하며 비상을 준비하는 주니어들의 모임입니다.</p>
+      <p class="hello"> {{ msg }} </p>
+      <h1><strong> {{ mainTitle }} </strong></h1>
+      <p> {{ subTitle }} </p>
     </div>
 
     <div class="contents">
       <h2><strong>우아주는 ICT 전분야에 대해 공부하고 공유하는 소모임입니다.</strong></h2>
-      <p>저희는 전자공학, 컴퓨터공학과 같이 ICT 기술을 전공으로 공부 중인 대학 재학생, 휴학생이며 <br/>
-        2년 이내의 수료생, 졸업생으로 구성된 아직은 사회에서 주니어 취급을 받는 사람들입니다. <br/>
-        빠르게 변하며 발전하는 ICT 기술의 흐름 속에서 길을 잃지 않고 나아가기 위해 서로가 공부한 내용을 공유하고자 합니다.
+      <p>저희는 전자공학, 컴퓨터공학과 같이 ICT 기술을 전공으로 공부 중인 대학 재학생/휴학생입니다. <br/>
+        그리고 대학을 수료/졸업한지 오래되지 않아 아직은 사회에서 주니어 취급을 받는 사람들입니다. <br/>
+        저희는 빠르게 변하며 발전하는 ICT 기술의 흐름 속에서 길을 잃지 않고 나아가기 위해 서로가 공부한 내용을 공유하고자 합니다.
       </p>
     </div>
 
-    <iframe width="860" height="615" src="https://www.youtube.com/embed/tPtER4HzTrI?list=PLTj4ip-QW96ty577FRHnACUjw4dSm2TFH" frameborder="0" allowfullscreen></iframe>
+    <div class="contents row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <iframe width="100%" height="500px" style="position: relative;" src="https://www.youtube.com/embed/tPtER4HzTrI?list=PLTj4ip-QW96ty577FRHnACUjw4dSm2TFH" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
 
     <div class="contact">
       <h2><strong>저희에 대해 궁금하신 분은 메일을 보내주세요</strong></h2>
@@ -25,26 +29,27 @@
           <div class="col">
             <div class="form-group row">
               <div class="col">
-                <input class="form-control" type="text" name="name" value="* 성함" required="" data-validation-required-message="이름을 적어주세요.">
+                <input class="form-control" type="text" name="name" placeholder="* 성함" required="" data-validation-required-message="이름을 적어주세요.">
               </div>
             </div>
             <div class="form-group row">
               <div class="col">
-                <input class="form-control" type="email" name="_replyto" value="* 답변받으실 이메일" required="" data-validation-required-message="이메일 주소를 적어주세요.">
+                <input class="form-control" type="email" name="_replyto" placeholder="* 답변받으실 이메일" required="" data-validation-required-message="이메일 주소를 적어주세요.">
               </div>
             </div>
             <div class="form-group row">
               <div class="col">
-                <input class="form-control" type="tel" value="연락처">
+                <input class="form-control" type="tel" placeholder="연락처">
               </div>
             </div>
           </div>
-          <div class="form-group col">
-            <input class="form-control message" type="text" name="message" value="* 문의하실 내용일 기입해주세요." required="" data-validation-required-message="메세지를 입력해 적어주세요.">
+          <div class="col">
+            <div class="form-group">
+              <input class="form-control message" type="text" name="message" placeholder="* 문의하실 내용일 기입해주세요." required="" data-validation-required-message="메세지를 입력해 적어주세요.">
+            </div>
           </div>
         </div>
-
-        <div class="button">
+        <div class="button row">
           <button type="submit" class="btn btn-warning">전송하기</button>
         </div>
       </form>
@@ -57,7 +62,9 @@
     name: 'intro-group',
     data() {
       return {
-        title: '우리는 아직 주니어다',
+        msg: 'Hello world !!!',
+        mainTitle: '우리는 아직 주니어다',
+        subTitle: '각자 공부하고, 다함께 공유하며 비상을 준비하는 주니어들의 모임입니다.',
       };
     },
   };
@@ -106,10 +113,6 @@
     margin-bottom: 30px;
   }
 
-  iframe {
-    margin-left: 20px;
-  }
-
   form {
     margin-top: 30px;
   }
@@ -128,8 +131,8 @@
   }
 
   button {
-    width: 850px;
-    height: 60px;
+    width: 100%;
+    height: 50px;
     margin-top: 20px;
   }
 </style>

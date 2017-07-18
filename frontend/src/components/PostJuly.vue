@@ -2,8 +2,8 @@
   <div class="post-contents">
     <div class="title-box">
       <p class="hello">July 2017 !!!</p>
-      <h1><strong> {{ title }} </strong></h1>
-      <p>각자 공부하고, 다함께 공유하며 비상을 준비하는 주니어들의 모임입니다.</p>
+      <h1><strong> {{ mainTitle }} </strong></h1>
+      <p> {{ subTitle}} </p>
     </div>
 
     <div class="contents">
@@ -21,7 +21,9 @@
     name: 'post-july',
     data() {
       return {
-        title: 'Smart things',
+        msg: 'July 2017 !!!',
+        mainTitle: 'Smart things',
+        subTitle: '각자 공부하고, 다함께 공유하며 비상을 준비하는 주니어들의 모임입니다.',
       };
     },
   };

@@ -1,17 +1,14 @@
 <template>
   <div class="post-contents">
     <div class="title-box">
-      <p class="hello">Hello world !!!</p>
-      <h1><strong> {{ title }} </strong></h1>
-      <p>아직 개발 중입니다 :-(</p>
+      <p class="hello"> {{ msg }} </p>
+      <h1><strong> {{ mainTitle }} </strong></h1>
+      <p> {{ subTitle }} </p>
     </div>
 
     <div class="contents">
-      <h2><strong>우아주는 ICT 전분야에 대해 공부하고 공유하는 소모임입니다.</strong></h2>
-      <p>저희는 전자공학, 컴퓨터공학과 같이 ICT 기술을 전공으로 공부 중인 대학 재학생, 휴학생이며 <br/>
-        2년 이내의 수료생, 졸업생으로 구성된 아직은 사회에서 주니어 취급을 받는 사람들입니다. <br/>
-        빠르게 변하며 발전하는 ICT 기술의 흐름 속에서 길을 잃지 않고 나아가기 위해 서로가 공부한 내용을 공유하고자 합니다.
-      </p>
+      <h2><strong> {{ title }} </strong></h2>
+      <img class="logo col" src="../assets/schedule.png" alt="schedule">
     </div>
   </div>
 </template>
@@ -21,7 +18,9 @@
     name: 'post-none',
     data() {
       return {
-//        title: '우아주',
+        msg: 'Hello world !!!',
+        mainTitle: '우아주 스터디 계획',
+        subTitle: '아직 개발 중입니다 :-(',
       };
     },
   };
