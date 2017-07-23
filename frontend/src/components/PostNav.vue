@@ -1,22 +1,22 @@
 <template>
   <ul id="post-nav" class="nav flex-column">
     <li class="nav-item">
-      <router-link to="/post/july" tag="li" active-class="active" class="nav-item nav-link">Smart things</router-link>
+      <router-link to="/post/1" tag="li" active-class="active" class="nav-item nav-link">Smart things</router-link>
     </li>
     <li>
-      <router-link to="/post/none" tag="li" active-class="active" class="nav-item nav-link">Smart Mobility</router-link>
+      <router-link to="/post/2" tag="li" active-class="active" class="nav-item nav-link">Smart Mobility</router-link>
     </li>
     <li>
-      <router-link to="/post/none" tag="li" active-class="active" class="nav-item nav-link">Cloud</router-link>
+      <router-link to="/post/3" tag="li" active-class="active" class="nav-item nav-link">Cloud</router-link>
     </li>
     <li>
-      <router-link to="/post/none" tag="li" active-class="active" class="nav-item nav-link">Big data</router-link>
+      <router-link to="/post/4" tag="li" active-class="active" class="nav-item nav-link">Big data</router-link>
     </li>
     <li>
-      <router-link to="/post/none" tag="li" active-class="active" class="nav-item nav-link">AI</router-link>
+      <router-link to="/post/5" tag="li" active-class="active" class="nav-item nav-link">AI</router-link>
     </li>
     <li>
-      <router-link to="/post/none" tag="li" active-class="active" class="nav-item nav-link">Security</router-link>
+      <router-link to="/post/6" tag="li" active-class="active" class="nav-item nav-link">Security</router-link>
     </li>
   </ul>
 </template>

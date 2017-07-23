@@ -8,8 +8,7 @@ import IntroGroup from '@/components/IntroGroup';
 import IntroMember from '@/components/IntroMember';
 
 import Post from '@/components/Post';
-import PostJuly from '@/components/PostJuly';
-import PostNone from '@/components/PostNone';
+import Show from '@/components/PostShow';
 
 import Login from '@/components/Login';
 
@@ -45,18 +44,11 @@ export default new Router({
       path: '/post',
       name: 'Post',
       component: Post,
-      children: [
-        {
-          path: '/post/july',
-          name: 'PostJuly',
-          component: PostJuly,
-        },
-        {
-          path: '/post/none',
-          name: 'PostNone',
-          component: PostNone,
-        },
-      ],
+    },
+    {
+      path: '/post/:id',
+      name: 'Show',
+      component: Show,
     },
     {
       path: '/login',

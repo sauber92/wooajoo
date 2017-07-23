@@ -5,6 +5,7 @@
     <!--<input type="password" class="form-control" placeholder="Password">-->
     <!--<button type="submit" class="btn btn-primary">Sign in</button>-->
     <h1>아직 개발 중입니다 :-(</h1>
+    <router-link to="/auth/google">구글 아이디로 로그인하기</router-link>
   </div>
 </template>
 

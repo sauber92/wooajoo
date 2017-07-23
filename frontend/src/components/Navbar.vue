@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse col" id="navbarNavDropdown">
       <ul class="navbar-nav col">
         <router-link to="/intro/group" tag="li" class="nav-item nav-link">소개</router-link>
-        <router-link to="/post/july" tag="li" class="nav-item nav-link">게시물 보기</router-link>
+        <router-link to="/post" tag="li" class="nav-item nav-link">게시물 보기</router-link>
         <li>
           <a href="https://www.youtube.com/playlist?list=PLTj4ip-QW96ty577FRHnACUjw4dSm2TFH" data-toggle="tooltip" data-placement="right" title="유투브 페이지로 이동합니다" class="nav-item nav-link">유투브 채널</a>
         </li>
