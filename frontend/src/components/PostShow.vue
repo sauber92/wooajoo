@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>상세 내용</h1>
-
+    {{movie}}
   </div>
 </template>
 
@@ -23,3 +23,6 @@
     },
   };
 </script>
+
+<style lang="css">
+</style>

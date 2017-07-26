@@ -1,22 +1,28 @@
-// eslint-disable-next-line import/newline-after-import
-const express = require('express');
-const router = express.Router();
-const movies = require('../movies.json');
+var express = require('express');
+var router = express.Router();
+var movies = require('../movies.json');
+// var Movie = require('../models/movies');
 
-// eslint-disable-next-line prefer-arrow-callback
-router.get('/post', function (req, res) {
-  res.send(movies);
+router.get('/', function (req, res, next) {
+  res.send(movies)
 });
 
-// eslint-disable-next-line prefer-arrow-callback
-router.get('/post/:id', function (req, res) {
-  const id = parseInt(req.params.id, 10);
-// eslint-disable-next-line prefer-arrow-callback,no-shadow
-  const movie = movies.filter(function (movie) {
-    return movie.id === id;
+router.get('/:id', function (req, res, next) {
+  var id = parseInt(req.params.id, 10)
+  var movie = movies.filter(function (movie) {
+    return movie.id === id
   });
-  res.send(movie);
+  res.send(movie)
 });
 
-// eslint-disable-next-line eol-last
+// router.get('/', function (req, res) {
+//   // Use the Beer model to find all beer
+//   Movie.find(function (err, movie) {
+//     if (err)
+//       res.send(err);
+//
+//     res.json(movie);
+//   });
+// });
+
 module.exports = router;
