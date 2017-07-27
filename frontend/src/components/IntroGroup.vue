@@ -8,8 +8,8 @@
 
     <div class="contents">
       <h2><strong>우아주는 ICT 전분야에 대해 공부하고 공유하는 소모임입니다.</strong></h2>
-      <p>저희는 전자공학, 컴퓨터공학과 같이 ICT 기술을 전공으로 공부 중인 대학 재학생/휴학생입니다. <br/>
-        그리고 대학을 수료/졸업한지 오래되지 않아 아직은 사회에서 주니어 취급을 받는 사람들입니다. <br/>
+      <p>우아주 멤버는 전자공학, 컴퓨터공학 전공의 대학생으로 구성되어 있습니다. <br/>
+        또한 대학을 수료/졸업한지 오래되지 않아 아직은 사회에서 주니어 취급을 받는 사람들도 자유롭게 참여 가능합니다. <br/>
         저희는 빠르게 변하며 발전하는 ICT 기술의 흐름 속에서 길을 잃지 않고 나아가기 위해 서로가 공부한 내용을 공유하고자 합니다.
       </p>
     </div>
@@ -21,7 +21,7 @@
     </div>
 
     <div class="contact">
-      <h2><strong>저희에 대해 궁금하신 분은 메일을 보내주세요</strong></h2>
+      <h2><strong>우아주 대해 궁금하신 분은 메일을 보내주세요</strong></h2>
       <p>* 표시가 된 항목은 반드시 기입</p>
 
       <form action="https://formspree.io/jjy920517@gmail.com" method="POST">
@@ -45,7 +45,7 @@
           </div>
           <div class="col">
             <div class="form-group">
-              <input class="form-control message" type="text" name="message" placeholder="* 문의하실 내용일 기입해주세요." required="" data-validation-required-message="메세지를 입력해 적어주세요.">
+              <input class="form-control message" type="text" name="message" placeholder="* 문의하실 내용일 기입해주세요." required="" data-validation-required-message="메세지를 입력해 적어주세요">
             </div>
           </div>
         </div>
@@ -72,8 +72,8 @@
 
 <style scoped>
   .title-box {
-    height: 300px;
-    padding: 30px 50px;
+    height: 250px;
+    padding: 15px 50px;
     color: #ffffff;
     border-radius: 20px;
     background: rgba(255,193,7,1);

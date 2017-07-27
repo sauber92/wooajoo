@@ -6,12 +6,58 @@
       <p> {{ subTitle }} </p>
     </div>
 
-    <div class="contents">
-      <h2><strong>우아주는 ICT 전분야에 대해 공부하고 공유하는 소모임입니다.</strong></h2>
-      <p>저희는 전자공학, 컴퓨터공학과 같이 ICT 기술을 전공으로 공부 중인 대학 재학생/휴학생입니다. <br/>
-        그리고 대학을 수료/졸업한지 오래되지 않아 아직은 사회에서 주니어 취급을 받는 사람들입니다. <br/>
-        저희는 빠르게 변하며 발전하는 ICT 기술의 흐름 속에서 길을 잃지 않고 나아가기 위해 서로가 공부한 내용을 공유하고자 합니다.
-      </p>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/13237805_968492259936062_3366953170761019237_n.jpg?oh=e41dc5a32dbd70219a4c6cf80babcebc&oe=59FDDDE0" alt="준영 프로필">
+        <div class="card-block">
+          <h4 class="card-title">정준영</h4>
+          <p class="card-text"><small class="text-muted">#sauber92 #자우버92 #라고읽으면됩니다<br/>
+            🖥 <a href="https://sauber92.github.io">https://sauber92.github.io</a></small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/12360406_796792293783589_1904292523863888275_n.jpg?oh=ead7f80c3c7696c999dd9d758825e298&oe=5A06BF38" alt="종원 프로필">
+        <div class="card-block">
+          <h4 class="card-title">전종원</h4>
+          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
+            💌 종원이 메일 몰라 링크넣어도 돼</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/10301061_742917559159321_2129473068710814470_n.jpg?oh=f6c985e7f013a756359761e67acbf97b&oe=5A070328" alt="대원 프로필">
+        <div class="card-block">
+          <h4 class="card-title">신대원</h4>
+          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
+            💌 대원이 메일 몰라 링크넣어도 돼</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/17884494_1291076874301623_1296331433684419890_n.jpg?oh=5aa927236490cb7bf7ac133d80b99a93&oe=5A36B8EB" alt="종렬 프로필">
+        <div class="card-block">
+          <h4 class="card-title">오종렬</h4>
+          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
+            💌 종렬이 메일 몰라 링크넣어도 돼</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/18222715_1346307548822935_7440607442678340919_n.jpg?oh=6ed2df454bdf3b922e106e568b6b614d&oe=5A00F3E0" alt="지수 프로필">
+        <div class="card-block">
+          <h4 class="card-title">김지수</h4>
+          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
+            💌 지수 메일 몰라 링크넣어도 돼</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="../assets/logo-big.png" alt="은아 프로필">
+        <div class="card-block">
+          <h4 class="card-title">모은아</h4>
+          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
+            💌 은아 메일 몰라 링크넣어도 돼</small></p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -21,9 +67,9 @@
     name: 'intro-member',
     data() {
       return {
-        msg: 'Hello world !!!',
-        mainTitle: '우리는 아직 주니어다',
-        subTitle: '아직 개발 중입니다 :-(',
+        msg: 'About me',
+        mainTitle: '우아주 人 은',
+        subTitle: '대학생, 수료생, 졸업생 : 아직은 사회의 주니어인 사람들의 모임',
       };
     },
   };
@@ -31,8 +77,8 @@
 
 <style scoped>
   .title-box {
-    height: 300px;
-    padding: 30px 50px;
+    height: 250px;
+    padding: 15px 50px;
     color: #ffffff;
     border-radius: 20px;
     background: rgba(255,193,7,1);
@@ -62,13 +108,39 @@
     margin-left: 10px;
   }
 
-  .contents, .contact{
-    margin: 50px 20px;
-    font-size: 15px;
-  }
-
   h2 {
     font-size: 25px;
     margin-bottom: 30px;
+  }
+
+  .card-deck {
+    margin-top: 50px;
+  }
+
+  .card {
+    width: 285px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-title {
+    color: #5c5c5c;
+    font-weight: 700;
+  }
+
+  .card-text, a {
+    color: #686868;
+  }
+
+  .card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 3;
+  }
   }
 </style>

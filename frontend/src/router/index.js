@@ -8,6 +8,7 @@ import IntroGroup from '@/components/IntroGroup';
 import IntroMember from '@/components/IntroMember';
 
 import Post from '@/components/Post';
+import PostKey from '@/components/PostKeyword';
 import Show from '@/components/PostShow';
 
 import Login from '@/components/Login';
@@ -46,7 +47,12 @@ export default new Router({
       component: Post,
     },
     {
-      path: '/post/:id',
+      path: '/post/:month',
+      name: 'PostKey',
+      component: PostKey,
+    },
+    {
+      path: '/post/:month/:id',
       name: 'Show',
       component: Show,
     },
