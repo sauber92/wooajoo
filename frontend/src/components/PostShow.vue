@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>상세 내용</h1>
-    {{movie}}
+    {{ board }}
   </div>
 </template>
 
@@ -10,15 +10,15 @@
 // eslint-disable-next-line object-shorthand
     created: function () {
       const id = this.$route.params.id;
-      this.$http.get(`/api/movies/${id}`)
+      this.$http.get(`/api/boards/${id}`)
         .then((response) => {
-          this.movie = response.data;
+          this.board = response.data;
         });
     },
 // eslint-disable-next-line object-shorthand
     data: function () {
       return {
-        movie: {},
+        board: {},
       };
     },
   };

@@ -8,8 +8,9 @@ var mongoose    = require('mongoose');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-var movies = require('./routes/movies');
+var boards = require('./routes/boards');
 
+var database = require('./config/db');
 var app = express();
 
 // view engine setup
@@ -26,17 +27,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/api/movies', movies);
+app.use('/api/boards', boards);
 
 // mongodb
+mongoose.connect(database.mongodb);
+mongoose.Promise = global.Promise;
+
 var db = mongoose.connection;
 db.on('error', console.error);
 db.once('open', function(){
   // CONNECTED TO MONGODB SERVER
   console.log("Connected to mongod server");
 });
-
-mongoose.connect('mongodb://localhost:27017/wooajoo');
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

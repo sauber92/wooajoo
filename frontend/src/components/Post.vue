@@ -1,15 +1,15 @@
 <template>
-  <div id="post" class="row movies">
+  <div id="post" class="row">
     <post-nav class="col-2"></post-nav>
     <!--<router-view class="col-10"></router-view>-->
     <div class="col-8">
-      <div class="movies">
+      <div class="boards">
         <h1>영화 목록</h1>
-        <div v-for="movie in movies" class="movie">
-          <img v-bind:src="movie.poster" class="poster">
+        <div v-for="board in boards" class="board">
+          <img v-bind:src="board.poster" class="poster">
           <div>
-            <strong></strong>, <i></i> []
-            <router-link :to="{ name: 'Show', params: { id: movie.id }}">더보기</router-link>
+            <strong> {{ board.title }} </strong>, <i> {{ board.created_at }} </i> []
+            <router-link :to="{ name: 'Show', params: { id: board._id }}">더보기</router-link>
           </div>
         </div>
       </div>
@@ -34,14 +34,14 @@
       PostNav,
     },
     data: () => ({
-      movies: [],
+      boards: [],
       errors: [],
     }),
     // eslint-disable-next-line space-before-function-paren
     created () {
-      this.$http.get('/api/movies')
+      this.$http.get('/api/boards')
         .then((response) => {
-          this.movies = response.data;
+          this.boards = response.data;
         })
         .catch((e) => {
           this.errors.push(e);
