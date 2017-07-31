@@ -11,8 +11,16 @@
 
 <script>
   export default {
-    created() {
-//      console.log('login');
+    name: 'login',
+    data: () => ({
+
+    }),
+    // eslint-disable-next-line space-before-function-paren
+    created () {
+      this.$http.get('/login')
+        .then((response) => {
+
+        });
     },
   };
 </script>

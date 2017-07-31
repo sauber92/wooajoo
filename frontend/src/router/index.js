@@ -11,7 +11,7 @@ import Post from '@/components/Post';
 import PostKey from '@/components/PostKeyword';
 import Show from '@/components/PostShow';
 
-import Login from '@/components/Login';
+import SignIn from '@/components/Login';
 
 Vue.use(Router);
 
@@ -57,9 +57,9 @@ export default new Router({
       component: Show,
     },
     {
-      path: '/login',
-      name: 'Login',
-      component: Login,
+      path: '/signin',
+      name: 'SignIn',
+      component: SignIn,
     },
   ],
 });

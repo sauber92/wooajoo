@@ -15,7 +15,7 @@
           <a href="https://www.youtube.com/playlist?list=PLTj4ip-QW96ty577FRHnACUjw4dSm2TFH" data-toggle="tooltip" data-placement="right" title="유투브 페이지로 이동합니다" class="nav-item nav-link">유투브 채널</a>
         </li>
       </ul>
-      <router-link to="/login" class="col">
+      <router-link to="/signin" class="col">
         <p class="login">로그인</p>
         <!--<p class="login">로그아웃</p>-->
       </router-link>

@@ -10,4 +10,4 @@ var boardSchema = new Schema({
   update_at : { type : Date, default : Date.now }
 });
 
-module.exports = mongoose.model('Movie', boardSchema);
+module.exports = mongoose.model('Board', boardSchema);

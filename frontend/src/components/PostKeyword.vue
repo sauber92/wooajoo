@@ -30,7 +30,7 @@
           <!--<img class="card-img-top" src="..." alt="Card image cap">-->
           <div class="card-block">
             <h4 class="card-title">{{ board.title }}</h4>
-            <p class="card-text">{{ board.created_at}}</p>
+            <p class="card-text">{{ board.introduction}}</p>
             <a href="#" class="btn btn-outline-warning">더보기</a>
             <router-link :to="{ name: 'Show', params: { id: board._id }}"><button class="btn btn-outline-warning">더보기</button></router-link>
           </div>

@@ -1,12 +1,12 @@
 var express = require('express');
 var router = express.Router();
-var Movie = require('../models/boards');
+var Board = require('../models/boards');
 
 router.get('/', (req, res) => {
-  Movie.find({})
+  Board.find({})
     .sort({ update_at : -1})
-    .then(movies => {
-      res.json(movies)
+    .then(boards => {
+      res.json(boards)
     })
     .catch(err => {
       res.json(err)
@@ -14,9 +14,9 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:id', (req, res) => {
-  Movie.findById(req.params.id)
-    .then(movie => {
-      res.json(movie)
+  Board.findById(req.params.id)
+    .then(board => {
+      res.json(board)
     })
     .catch(err => {
       res.json(err)
@@ -24,17 +24,17 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/article', (req, res) => {
-  Movie.create(req.body, (err, movie) => {
+  Board.create(req.body, (err, board) => {
     if (err) {
       res.json(err)
     } else {
-      res.json(movie)
+      res.json(board)
     }
   });
 });
 
 router.put('/article/:id',(req,res) => {
-  Movie.findOneAndUpdate({ _id : req.params.id}
+  Board.findOneAndUpdate({ _id : req.params.id}
     ,{ $set : { title: req.body.title,
       rating : req.body.rating,
       poster : req.body.poster,
@@ -42,15 +42,15 @@ router.put('/article/:id',(req,res) => {
     },{
       new : true
     })
-    .then(movie => res.json(movie))
+    .then(board => res.json(board))
     .catch(err => res.json(err))
 });
 
 router.delete('/article/:id',(req,res) => {
-  Movie.findOneAndRemove({
+  Board.findOneAndRemove({
     _id : req.params.id
   })
-    .then(movie => res.send(`${movie.title}`))
+    .then(board => res.send(`${board.title}`))
     .catch(err => res.json(err))
 });
 
