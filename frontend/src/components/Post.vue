@@ -8,11 +8,8 @@
         <h1><strong> {{ mainTitle }} </strong></h1>
         <p> {{ subTitle }} </p>
       </div>
-
-      <img src="../assets/schedule.png"/>
-
       <h2>※ 발표 일정을 확인해주세요</h2>
-
+      <img src="../assets/schedule.png"/>
     </div>
   </div>
 </template>
@@ -72,6 +69,7 @@
   }
 
   h2 {
+    margin-top: 50px;
     text-align: center;
     font-weight: 900;
   }

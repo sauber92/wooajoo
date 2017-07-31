@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="../assets/logo-big.png" alt="은아 프로필">
+        <img class="card-img-top" src="http://restapi.fs.ncloud.com/wooajoo/member/ena.jpg" alt="은아 프로필">
         <div class="card-block">
           <h4 class="card-title">모은아</h4>
           <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>

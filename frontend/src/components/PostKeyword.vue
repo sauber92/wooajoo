@@ -26,11 +26,13 @@
       </div>
 
       <div class="boards">
-        <div v-for="board in boards" class="board">
-          <img v-bind:src="board.poster" class="poster">
-          <div>
-            <strong> {{ board.title }} </strong>, <i> {{ board.created_at }} </i> []
-            <router-link :to="{ name: 'Show', params: { id: board._id }}">더보기</router-link>
+        <div v-for="board in boadrs" class="card board" style="width: 20rem;">
+          <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+          <div class="card-block">
+            <h4 class="card-title">{{ board.title }}</h4>
+            <p class="card-text">{{ board.created_at}}</p>
+            <a href="#" class="btn btn-outline-warning">더보기</a>
+            <router-link :to="{ name: 'Show', params: { id: board._id }}"><button class="btn btn-outline-warning">더보기</button></router-link>
           </div>
         </div>
       </div>
@@ -99,5 +101,9 @@
   .title-box p {
     font-size: 20px;
     margin-left: 10px;
+  }
+
+  .boards {
+    margin-top: 50px;
   }
 </style>
