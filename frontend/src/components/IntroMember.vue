@@ -11,8 +11,8 @@
         <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/13237805_968492259936062_3366953170761019237_n.jpg?oh=e41dc5a32dbd70219a4c6cf80babcebc&oe=59FDDDE0" alt="준영 프로필">
         <div class="card-block">
           <h4 class="card-title">정준영</h4>
-          <p class="card-text"><small class="text-muted">#sauber92 #자우버92 #라고읽으면됩니다<br/>
-            🖥 <a href="https://sauber92.github.io">https://sauber92.github.io</a></small></p>
+          <p class="card-text"><small class="text-muted">#sauber92 #학부연구생 #개발자 #길치<br/>
+            💻 <a href="https://sauber92.github.io">https://sauber92.github.io</a></small></p>
         </div>
       </div>
       <div class="card">
@@ -27,8 +27,8 @@
         <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/10301061_742917559159321_2129473068710814470_n.jpg?oh=f6c985e7f013a756359761e67acbf97b&oe=5A070328" alt="대원 프로필">
         <div class="card-block">
           <h4 class="card-title">신대원</h4>
-          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
-            💌 대원이 메일 몰라 링크넣어도 돼</small></p>
+          <p class="card-text"><small class="text-muted">#먹보 #먹기위해사는자 #당떨어지면위험<br/>
+            💌 pokeodnjs@naver.com</small></p>
         </div>
       </div>
     </div>
@@ -38,8 +38,8 @@
         <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/17884494_1291076874301623_1296331433684419890_n.jpg?oh=5aa927236490cb7bf7ac133d80b99a93&oe=5A36B8EB" alt="종렬 프로필">
         <div class="card-block">
           <h4 class="card-title">오종렬</h4>
-          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
-            💌 종렬이 메일 몰라 링크넣어도 돼</small></p>
+          <p class="card-text"><small class="text-muted">#나를_표현할 #세단어 #청주 #치킨 #농구<br/>
+            💌 jyeoloh@khu.ac.kr</small></p>
         </div>
       </div>
       <div class="card">
@@ -47,15 +47,15 @@
         <div class="card-block">
           <h4 class="card-title">김지수</h4>
           <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
-            💌 지수 메일 몰라 링크넣어도 돼</small></p>
+            💻 <a href="https://goo.gl/zrQiCA">https://goo.gl/zrQiCA</a></small></p>
         </div>
       </div>
       <div class="card">
         <img class="card-img-top" src="http://restapi.fs.ncloud.com/wooajoo/member/ena.jpg" alt="은아 프로필">
         <div class="card-block">
           <h4 class="card-title">모은아</h4>
-          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
-            💌 은아 메일 몰라 링크넣어도 돼</small></p>
+          <p class="card-text"><small class="text-muted">#집순이#노트북#핸드폰#집에서할일많아요<br/>
+            💌 v_vssss@naver.com</small></p>
         </div>
       </div>
     </div>

@@ -62,5 +62,5 @@ typings/
 
 .idea
 
-backend/firebase_config.json
+firebase_config.json
 backend/public/static
