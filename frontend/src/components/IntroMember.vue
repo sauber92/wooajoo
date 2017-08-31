@@ -46,12 +46,12 @@
         <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/18222715_1346307548822935_7440607442678340919_n.jpg?oh=6ed2df454bdf3b922e106e568b6b614d&oe=5A00F3E0" alt="지수 프로필">
         <div class="card-block">
           <h4 class="card-title">김지수</h4>
-          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
-            💻 <a href="https://goo.gl/zrQiCA">https://goo.gl/zrQiCA</a></small></p>
+          <p class="card-text"><small class="text-muted">#여행 #제주 #핸드폰 #사진찍기<br/>
+            💌 graces127@naver.com</small></p>
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="http://restapi.fs.ncloud.com/wooajoo/member/ena.jpg" alt="은아 프로필">
+        <img class="card-img-top" src="https://s3.ap-northeast-2.amazonaws.com/wooajoo/ena.png" alt="은아 프로필">
         <div class="card-block">
           <h4 class="card-title">모은아</h4>
           <p class="card-text"><small class="text-muted">#집순이#노트북#핸드폰#집에서할일많아요<br/>
