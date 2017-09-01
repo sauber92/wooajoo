@@ -19,8 +19,8 @@
         <img class="card-img-top" src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p320x320/12360406_796792293783589_1904292523863888275_n.jpg?oh=ead7f80c3c7696c999dd9d758825e298&oe=5A06BF38" alt="종원 프로필">
         <div class="card-block">
           <h4 class="card-title">전종원</h4>
-          <p class="card-text"><small class="text-muted">#당신을 #나타낼 #해쉬태그는 #무엇인가요<br/>
-            💌 종원이 메일 몰라 링크넣어도 돼</small></p>
+          <p class="card-text"><small class="text-muted">#호기심 #마이웨이 #농구 #그때그때바껴요<br/>
+            💌 gplaym@naver.com</small></p>
         </div>
       </div>
       <div class="card">
